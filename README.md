@@ -1,1 +1,1 @@
-# OsteoVision_MobileApp
+# Osteoporosis-Detection-App

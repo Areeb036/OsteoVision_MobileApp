@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- App Logo -->
+        <ImageView
+            android:id="@+id/imageViewAppLogo"
+            android:layout_width="298dp"
+            android:layout_height="206dp"
+            android:contentDescription="App Logo"
+            android:paddingBottom="16dp"
+            android:src="@drawable/osteovision_logo2" />
+
+        <!-- Version Number -->
+        <TextView
+            android:id="@+id/textViewSubHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:text="@string/excellence_in_osteoporosis"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewVersionNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:background="@drawable/text_background"
+            android:padding="8dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:text="@string/version"
+            android:backgroundTint="@color/colorQuestionSection"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <!-- Mission Statement Text -->
+        <TextView
+            android:id="@+id/textViewMissionStatement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/about_full_description"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:padding="8dp"
+            android:justificationMode="inter_word"
+            android:textStyle="italic"/>
+    </LinearLayout>
+</ScrollView>
